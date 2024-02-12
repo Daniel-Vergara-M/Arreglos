@@ -34,15 +34,14 @@ int main()
         sumaV2 += vect2[j];
     }
 
-    cout << sumaV1 << " " << sumaV2 << endl;
-    /* if (sumaV1 == sumaV2)
+    if (sumaV1 == sumaV2)
     {
         cout << "El resultado de la suma de los valores de cada vector es igual: " << sumaV1 << endl;
     }
     else
     {
         cout << "El resultado de la suma de los valores de cada vector es diferente: " << sumaV1 << " y " << sumaV2 << endl;
-    } */
+    }
 
     return 0;
 }
